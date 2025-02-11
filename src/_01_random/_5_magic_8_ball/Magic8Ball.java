@@ -6,7 +6,15 @@ package _01_random._5_magic_8_ball;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Magic8Ball {
+	public static void main(String[] args){
+	JOptionPane.showMessageDialog(null,"I am a magic eight ball. Give me a question to answer.");
+		Random ran = 
+
+
+
 
 	// 1. Make a main method that includes all the steps below
 
@@ -33,5 +41,5 @@ public class Magic8Ball {
 	// 7. If the random number is 3
 
 	// -- write your own answer
-
+	}
 }
