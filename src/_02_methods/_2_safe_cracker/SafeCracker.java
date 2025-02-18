@@ -28,8 +28,14 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
-		 */		
-
+		 */	
+		int i = 1;	
+		while(true){
+			tryCode(i);
+			System.out.println(i);
+			i+=1;
+			
+		}
 	}
 
 	 void tryCode(int guess) {

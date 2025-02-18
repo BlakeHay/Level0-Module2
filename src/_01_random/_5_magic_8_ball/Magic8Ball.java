@@ -9,13 +9,22 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 
 public class Magic8Ball {
-	public static void main(String[] args){
-	JOptionPane.showMessageDialog(null,"I am a magic eight ball. Give me a question to answer.");
-		Random ran = 
-
-
-
-
+public static void main(String[] args){
+JOptionPane.showInputDialog(null,"I am a magic eight ball. Give me a question to answer.");
+Random ran = new Random();
+int number = ran.nextInt(4);
+if (number == 0) {
+JOptionPane.showMessageDialog(null, "Yes!");
+}
+if (number == 1) {
+	JOptionPane.showMessageDialog(null, "No");
+}
+if (number == 2) {
+	JOptionPane.showMessageDialog(null, "You should ask google.");
+}
+if (number == 3) {
+	JOptionPane.showMessageDialog(null, "THATS TOO CONFUSING!");
+}
 	// 1. Make a main method that includes all the steps below
 
 	// 2. Get the user to enter a question for the 8 ball to answer
