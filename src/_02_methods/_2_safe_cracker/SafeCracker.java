@@ -32,7 +32,7 @@ public class SafeCracker {
 		int i = 1;	
 		while(true){
 			tryCode(i);
-			System.out.println(i);
+			//System.out.println(i);
 			i+=1;
 			
 		}

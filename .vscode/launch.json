@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Voting_Booth",
+            "request": "launch",
+            "mainClass": "_03_string_conversion._4_voting_booth.Voting_Booth",
+            "projectName": "Level0-Module2_26c0ea07"
+        },
+        {
+            "type": "java",
+            "name": "RollerCoaster",
+            "request": "launch",
+            "mainClass": "_03_string_conversion._3_rollercoaster.RollerCoaster",
+            "projectName": "Level0-Module2_26c0ea07"
+        },
+        {
+            "type": "java",
+            "name": "StringsCannotAdd",
+            "request": "launch",
+            "mainClass": "_03_string_conversion._2_strings_cannot_add.StringsCannotAdd",
+            "projectName": "Level0-Module2_26c0ea07"
+        },
+        {
+            "type": "java",
             "name": "Lottery_numbers",
             "request": "launch",
             "mainClass": "_01_random._6_lottery_numbers.Lottery_numbers",
